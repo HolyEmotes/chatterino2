@@ -70,8 +70,8 @@ namespace {
 
 using namespace chatterino;
 
-const QString BTTV_LIVE_UPDATES_URL = "wss://sockets.betterttv.net/ws";
-const QString SEVENTV_EVENTAPI_URL = "wss://events.7tv.io/v3";
+const QString BTTV_LIVE_UPDATES_URL = "wss://thing.holy-emotes.ru/sockets.betterttv.net/ws";
+const QString SEVENTV_EVENTAPI_URL = "wss://thing.holy-emotes.ru/events.7tv.io/v3";
 
 ISoundController *makeSoundController(Settings &settings)
 {

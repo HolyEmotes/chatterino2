@@ -1927,7 +1927,7 @@ std::optional<CheerEmote> TwitchChannel::cheerEmote(const QString &string) const
 void TwitchChannel::updateSevenTVActivity()
 {
     static const QString seventvActivityUrl =
-        QStringLiteral("https://7tv.io/v3/users/%1/presences");
+        QStringLiteral("https://thing.holy-emotes.ru/7tv.io/v3/users/%1/presences");
 
     const auto currentSeventvUserID =
         getApp()->getAccounts()->twitch.getCurrent()->getSeventvUserID();

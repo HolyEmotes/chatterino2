@@ -32,9 +32,9 @@ namespace bttv::detail {
 class BttvEmotes final
 {
     static constexpr const char *globalEmoteApiUrl =
-        "https://api.betterttv.net/3/cached/emotes/global";
+        "https://thing.holy-emotes.ru/api.betterttv.net/3/cached/emotes/global";
     static constexpr const char *bttvChannelEmoteApiUrl =
-        "https://api.betterttv.net/3/cached/users/twitch/";
+        "https://thing.holy-emotes.ru/api.betterttv.net/3/cached/users/twitch/";
 
 public:
     BttvEmotes();

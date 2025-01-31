@@ -37,7 +37,7 @@ using namespace seventv::eventapi;
 
 // These declarations won't throw an exception.
 const QString CHANNEL_HAS_NO_EMOTES("This channel has no 7TV channel emotes.");
-const QString EMOTE_LINK_FORMAT("https://7tv.app/emotes/%1");
+const QString EMOTE_LINK_FORMAT("https://thing.holy-emotes.ru/7tv.app/emotes/%1");
 
 struct CreateEmoteResult {
     Emote emote;

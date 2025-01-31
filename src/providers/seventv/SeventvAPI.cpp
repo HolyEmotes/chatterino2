@@ -8,9 +8,9 @@ namespace {
 
 using namespace chatterino::literals;
 
-const QString API_URL_USER = u"https://7tv.io/v3/users/twitch/%1"_s;
-const QString API_URL_EMOTE_SET = u"https://7tv.io/v3/emote-sets/%1"_s;
-const QString API_URL_PRESENCES = u"https://7tv.io/v3/users/%1/presences"_s;
+const QString API_URL_USER = u"https://thing.holy-emotes.ru/7tv.io/v3/users/twitch/%1"_s;
+const QString API_URL_EMOTE_SET = u"https://thing.holy-emotes.ru/7tv.io/v3/emote-sets/%1"_s;
+const QString API_URL_PRESENCES = u"https://thing.holy-emotes.ru/7tv.io/v3/users/%1/presences"_s;
 
 }  // namespace
 

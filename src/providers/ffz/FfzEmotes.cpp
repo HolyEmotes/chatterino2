@@ -90,7 +90,7 @@ void parseEmoteSetInto(const QJsonObject &emoteSet, const QString &kind,
                             .arg(name.string, kind, author.string),
                         emote);
         emote.homePage =
-            Url{QString("https://www.frankerfacez.com/emoticon/%1-%2")
+            Url{QString("https://thing.holy-emotes.ru/www.frankerfacez.com/emoticon/%1-%2")
                     .arg(id.string)
                     .arg(name.string)};
 
@@ -237,7 +237,7 @@ void FfzEmotes::loadEmotes()
         return;
     }
 
-    QString url("https://api.frankerfacez.com/v1/set/global");
+    QString url("https://thing.holy-emotes.ru/api.frankerfacez.com/v1/set/global");
 
     NetworkRequest(url)
 
@@ -264,7 +264,7 @@ void FfzEmotes::loadChannel(
 {
     qCDebug(LOG) << "Reload FFZ Channel Emotes for channel" << channelID;
 
-    NetworkRequest("https://api.frankerfacez.com/v1/room/id/" + channelID)
+    NetworkRequest("https://thing.holy-emotes.ru/api.frankerfacez.com/v1/room/id/" + channelID)
 
         .timeout(20000)
         .onSuccess([emoteCallback = std::move(emoteCallback),
